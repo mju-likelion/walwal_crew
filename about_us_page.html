@@ -33,11 +33,6 @@
         #subtitle {
             color: #737B7D;
         }
-        
-        .navbar-right li a{
-        color: black;
-        font-weight: bold;
-        }
         nav{
         color: black;
         }
@@ -62,6 +57,16 @@
             display: flex;
             justify-content: center;
         }
+        .navbar-right li a{
+        font-weight: bold;
+        }
+        .no a{
+            color:black;
+        }
+        .navbar-right li a:hover{
+            color: #3C64B1;
+        }
+        
 	</style>	
 </head>
 <body>
@@ -72,9 +77,9 @@
             <div style="font-weight:bold;font-size: 120%; margin-top: 5%;">준비됐멍?</div>
           </div>
           <ul class="nav navbar-nav navbar-right" style="margin-top:1%">
-            <li class="active"><a href="test_page.html" onmouseout="change5(this)" onmouseover="change6(this)">반려견 입양 준비도 테스트</a></li>
-            <li><a href="adoption_page.html"onmouseout="change5(this)" onmouseover="change6(this)">유기견 입양</a></li>
-            <li><a href="about_us_page.html"onmouseout="change5(this)" onmouseover="change6(this)">About US</a></li>
+            <li class="no"><a href="test_page.html">반려견 입양 준비도 테스트</a></li>
+            <li class="no"><a href="adoption_page.html">유기견 입양</a></li>
+            <li class="active"><a href="about_us_page.html">About US</a></li>
           </ul>
         </div>
       </nav>
@@ -132,12 +137,6 @@
 			animateTime: 0.7,
 			animateFunction: 'ease'
 		});
-        function change5(obj){
-            obj.style.color = 'black';
-            }
-        function change6(obj){
-            obj.style.color = '#3C64B1';
-        }
 	</script>
     
 </body>
