@@ -1,0 +1,103 @@
+.navbar{
+    background-color: #ffffff;
+  }
+  .navbar-brand{
+    padding: 0.5vmin;
+  }
+  #dangdang{
+    transition: all 500ms ease-out 1ms;
+  }
+  .question .title h1{
+    font-size:3vmin;
+  }
+  .subtitle h3{
+    color:gray;
+    font-size:2.8vmin;
+  }
+  .controller button{
+    font-weight: bold;
+    background-color: white;
+    color: #D3335A;
+    border: 2px solid #D3335A;
+    padding: 0.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .controller button:hover{
+    background-color: #D3335A;
+    color: white;
+  }
+  .navbar{
+    margin-bottom: 7%;
+  }
+  .answer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 130px;
+  }
+  .answer button{
+    margin:1%;
+    border:2px solid #3C64B1;
+    box-sizing: border-box;
+    background:#FFFFFF;
+    color: #3C64B1;
+    font-weight: bold;
+    font-size: 2vmin;
+    padding: 1.5vmin;
+  }
+  .answer button:hover{
+    background-color:#3C64B1;
+    color: #FFFFFF;
+  }
+  .question{
+    text-align: center;
+  }
+  .imgGroup{
+    position:relative;
+    margin-bottom: 10%;
+  }
+  .navbar-right .active a{
+    color: #3C64B1;
+  }
+  .navbar-right li a{
+    color: black;
+    font-weight: bold;
+  }
+  nav{
+    color: black;
+  }
+  .brand_flex{
+    display: flex;
+    flex-direction: column;
+  }
+  .progress{
+    height: 10px;
+    width: 100%;
+    background-color: #B2ADAD;
+    background-image: linear-gradient(#B2ADAD);
+    background-image: linear-gradient(to bottom,#B2ADAD 0,#B2ADAD 100%);
+  }
+  .progress-bar{
+    background: #0C0C0C;
+  }
+  .container-main{
+    width: 80%;
+    margin-top: 5rem;
+  }
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    height: 20vmin;
+  }
+  footer img{
+    display: block; margin: 0px auto;
+  }
+  .navbar-nav li a:hover{
+    color: #3C64B1;
+  }
